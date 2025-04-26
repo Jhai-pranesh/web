@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 20px; 
+}
+
+input, button { 
+    padding: 8px; 
+    margin: 5px; 
+}
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+li { 
+    background: #f9f9f9; 
+    margin: 5px 0; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+li span {
+    flex-grow: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+li button {
+    margin-left: 5px;
+}
